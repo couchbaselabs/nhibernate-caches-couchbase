@@ -32,7 +32,7 @@ Once configured, the Couchbase NHibernate 2nd level cache should be transparent.
     Server=localhost;initial catalog=nhibernate;Integrated Security=SSPI
     </property>
     <property name="connection.isolation">ReadCommitted</property>
-    <property name="cache.provider_class"> NHibernate.Caches.Couchbase.MemCacheProvider,NHibernate.Caches.Couchbase</property>
+    <property name="cache.provider_class"> NHibernate.Caches.Couchbase.CouchbaseCacheProvider,NHibernate.Caches.Couchbase</property>
     </session-factory>
     </hibernate-configuration> 
 
